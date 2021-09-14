@@ -1,0 +1,12 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+<div>
+    @Model.name - @Model.category <br />
+    @Model.description <br />
+    $@Model.price
+
+</div>
